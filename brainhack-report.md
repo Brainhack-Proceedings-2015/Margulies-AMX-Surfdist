@@ -31,6 +31,8 @@ acknow: The authors would like to thank the organizers and attendees of Brainhac
 contrib: DSM wrote the software and wrote the report.
   
 bibliography: brainhack-report
+
+gigascience-ref: REFXXX
 ...
 
 #Introduction

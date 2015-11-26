@@ -70,8 +70,8 @@ In addition, it is possible to embed the figures in an IPython Notebook [Link].
 \begin{figure}[h!]
   \includegraphics[width=0.47\textwidth]{figure-01}
   \caption{\label{keyfig}
-  (a)
-  (b)
+  (a) Exact geodesic distance from the central sulcus on an individual pial surface.
+  (b) Zones based on proximity to the central or calcarine sulcus.
   (c)
   }
 \end{figure}

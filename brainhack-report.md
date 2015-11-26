@@ -67,16 +67,16 @@ The resultant package, SurfDist, achieves the aforementioned goals of faciliatin
 
 In addition, it is possible to embed the figures in an IPython Notebook [Link].
 
-#Conclusions
-
-The SurfDist package enables  
-
-\begin{figure}
-  \includegraphics[width=0.45\textwidth]{figure-01}
+\begin{figure}[h!]
+  \includegraphics[width=0.47\textwidth]{figure-01}
   \caption{\label{keyfig}
   (a)
   (b)
   (c)
   }
 \end{figure}
+
+#Conclusions
+
+The SurfDist package enables  
 

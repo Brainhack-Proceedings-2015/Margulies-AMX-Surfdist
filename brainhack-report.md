@@ -40,7 +40,7 @@ url: http://github.com/margulies/surfdist
 
 coi: None
 
-acknow: The authors would like to thank the organizers and attendees of Brainhack MX. The visualization functions were originally developed as part of Nilearn. We would like to thank the Nilearn developers, especially the organizers and participants of the Nilearn coding sprint 2015 in Paris.
+acknow: The authors would like to thank the organizers and attendees of Brainhack MX. The visualization functions were originally developed during the Nilearn coding sprint 2015 in Paris, we would like to thank the organizers and participants of this event.
 
 contrib: DSM, MF, and JMH wrote the software and report.
 
@@ -51,7 +51,7 @@ gigascience-ref: REFXXX
 
 #Introduction
 
-The emergence of the human cerebral cortex, whether tracing it through phylogeny or ontogeny, tracks its expansion and progressive differentiation into larger and more diverse areas. While previous methodologies have addressed this analytically by characterizing local cortical expansion, several lines of research have proposed that the cortex in fact expands along trajectories from primordial archor areas~\cite{Sanides1969-pa, Buckner2013-cs}, and furthermore, that the distance along the cortical surface is informative regarding cortical differentiation~\cite{Wagstyl2015-us}. We sought to investigate the geometric relationships that arise in the cortex based on expansion from such origin points. Towards this aim, we developed a python package for measuring the geodesic distance along the cortical surface that restricts shortest paths from passing through nodes of non-cortical areas such as the medial wall. 
+The emergence of the human cerebral cortex, whether tracing it through phylogeny or ontogeny, tracks its expansion and progressive differentiation into larger and more diverse areas. While previous methodologies have addressed this analytically by characterizing local cortical expansion, several lines of research have proposed that the cortex in fact expands along trajectories from primordial anchor areas~\cite{Sanides1969-pa, Buckner2013-cs}, and furthermore, that the distance along the cortical surface is informative regarding cortical differentiation~\cite{Wagstyl2015-us}. We sought to investigate the geometric relationships that arise in the cortex based on expansion from such origin points. Towards this aim, we developed a python package for measuring the geodesic distance along the cortical surface that restricts shortest paths from passing through nodes of non-cortical areas such as the medial wall. 
 
 #Approach
 
@@ -73,7 +73,7 @@ The resultant package, SurfDist, achieves the aforementioned goals of faciliatin
   }
 \end{figure}
 
-Surface rendering of the results is based on plotting functions as implemented in Nilearn ~\cite{Abraham2014} and exclusively relies on the common library matplotlib to minimize dependencies. The visualization applies sensible defaults but can flexibly be adapted to different views, colormaps and thresholds as well as shadowing using a sulcal depth map.
+Surface rendering of the results draws from plotting functions as implemented in Nilearn ~\cite{Abraham2014} and exclusively relies on the common library matplotlib to minimize dependencies. The visualization applies sensible defaults but can flexibly be adapted to different views, colormaps and thresholds as well as shadowing using a sulcal depth map.
 
 #Conclusions
 

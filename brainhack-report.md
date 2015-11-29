@@ -63,7 +63,7 @@ Finally, to facilitate applications to neuroscience research questions, we enabl
 
 #Results
 
-The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central sulcus label on the FreeSurfer fsaverage template and the HCP 32k_LR template (Figure \ref{keyfig}).
+The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central sulcus label on the FreeSurfer native surfaces (Figure \ref{keyfig}, \emph(Top)). The zone analysis provides constructs a Voronoi diagram based on a set of individual nodes or sets of nodes, revealing patches of cortex closest to each set (Figure \ref{keyfig}, \emph(Bottom)).
 
 \begin{figure}[h!]
   \includegraphics[width=0.47\textwidth]{figure-01}
@@ -73,10 +73,8 @@ The resultant package, SurfDist, achieves the aforementioned goals of faciliatin
   }
 \end{figure}
 
-The zone analysis provides a means to construct a Voronoi diagram based on a set of individual nodes or sets of nodes.
-
-Surface rendering of the results is based on plotting functions as implemented in Nilearn ~\cite{Abraham2014} and exclusively relies on the common library matplotlib to minimize dependencies. The visualization applies sensible defaults but can flexibly be adapted to different views, colormaps and thresholds as well as shadowing using a sulcal depth map. Figures can be embedded directly in an IPython Notebook [Link].
+Surface rendering of the results is based on plotting functions as implemented in Nilearn ~\cite{Abraham2014} and exclusively relies on the common library matplotlib to minimize dependencies. The visualization applies sensible defaults but can flexibly be adapted to different views, colormaps and thresholds as well as shadowing using a sulcal depth map.
 
 #Conclusions
 
-The SurfDist package is designed to enable investigation of intrinisic geometric properties of the cerebral cortex.
+The SurfDist package is designed to enable investigation of intrinisic geometric properties of the cerebral cortex based on geodesic distance measures. Towards the aim of enabling applications specific to neuroimaging-based research question, we have designed the package to facilitate analysis and visualization of geodesic distance metrics using standard cortical surface meshes. 

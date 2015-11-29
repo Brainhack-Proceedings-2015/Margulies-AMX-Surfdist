@@ -51,11 +51,7 @@ gigascience-ref: REFXXX
 
 #Introduction
 
-<<<<<<< HEAD
-The emergence of the human cerebral cortex, whether tracing it through phylogeny or ontogeny, tracks its expansion and progressive differentiation into larger and more diverse areas. While several previous methodologies have addressed this analytically by characterizing local cortical expansion, several lines of research have proposed that the cortex in fact expands along trajectories from primordial archor areas~\cite{Sanides1969-pa, Buckner2013-cs}, and furthermore, that the distance along the cortical surface is informative regarding cortical differentiation~\cite{Wagstyl2015-us}. We sought to investigate the geometric relationships that arise in the cortex based on expansion from such origin points. Towards this aim, we developed a python package for measuring the geodesic distance along the cortical surface that restricts shortest paths from passing through nodes of non-cortical areas such as the medial wall. 
-=======
-The emergence of the human cerebral cortex, whether tracing it through phylogeny or ontogeny, tracks its expansion and progressive differentiation into larger and more diverse areas. While previous methodologies have addressed this analytically by characterizing local cortical expansion, several lines of research have proposed that the cortex in fact expands along trajectories from primordial anchor areas~\cite{Sanides1969-pa, Buckner2013-cs}, and furthermore, that the distance along the cortical surface is informative regarding cortical differentiation~\cite{Wagstyl2015-us}. We sought to investigate the geometric relationships that arise in the cortex based on expansion from such origin points. Towards this aim, we developed a python package for measuring the geodesic distance along the cortical surface that restricts shortest paths through the non-cortical medial wall.
->>>>>>> 13e69143a82cf742d24da7d9051bf98a514198ab
+The emergence of the human cerebral cortex, whether tracing it through phylogeny or ontogeny, tracks its expansion and progressive differentiation into larger and more diverse areas. While previous methodologies have addressed this analytically by characterizing local cortical expansion, several lines of research have proposed that the cortex in fact expands along trajectories from primordial archor areas~\cite{Sanides1969-pa, Buckner2013-cs}, and furthermore, that the distance along the cortical surface is informative regarding cortical differentiation~\cite{Wagstyl2015-us}. We sought to investigate the geometric relationships that arise in the cortex based on expansion from such origin points. Towards this aim, we developed a python package for measuring the geodesic distance along the cortical surface that restricts shortest paths from passing through nodes of non-cortical areas such as the medial wall. 
 
 #Approach
 
@@ -63,11 +59,7 @@ The calculation of geodesic distance along a mesh surface is based in the cumula
 
 The second challenge, for which there was no prefabricated solution, is ensuring that the shortest path does not traverse non-cortical areas--- most prominently, the medial wall. It is therefore necessary to remove mesh nodes prior to calculating the exact geodesic, which requires reconstructing the mesh and assigning the respective new node indices for any seed regions-of-interest.
 
-<<<<<<< HEAD
-Finally, to facilitate applications to neuroscience research questions, we enabled the loading and visualization of data from commonly used formats such as FreeSurfer and the Human Connectome Project (HCP). A Nipype pipeline for group-level batch processing has also been made available. The pipeline is wrapped in a command-line interface and allows for straightforward distance calculations of entire FreeSurfer-preprocessed datasets. Group-level data are stored as CSV files for each requested mesh resolution, source label and hemisphere, facilitating further statistical analyses.
-=======
-Finally, to facilitate applications to neuroscience research questions, we enabled the loading and visualization of data from commonly used formats such as FreeSurfer and the Human Connectome Project (HCP). A Nipype ~\cite{Gorgolewski2011} pipeline for group-level batch processing has also been made available.
->>>>>>> 13e69143a82cf742d24da7d9051bf98a514198ab
+Finally, to facilitate applications to neuroscience research questions, we enabled the loading and visualization of data from commonly used formats such as FreeSurfer and the Human Connectome Project (HCP). A Nipype pipeline for group-level batch processing has also been made available~\cite{Gorgolewski2011}. The pipeline is wrapped in a command-line interface and allows for straightforward distance calculations of entire FreeSurfer-preprocessed datasets. Group-level data are stored as CSV files for each requested mesh resolution, source label and hemisphere, facilitating further statistical analyses.
 
 #Results
 

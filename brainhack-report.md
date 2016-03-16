@@ -63,13 +63,15 @@ Finally, to facilitate applications to neuroscience research questions, we enabl
 
 #Results
 
-The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central sulcus label on the FreeSurfer native surfaces (Figure \ref{keyfig}, \emph(Top)). The zone analysis provides constructs a Voronoi diagram based on a set of individual nodes or sets of nodes, revealing patches of cortex closest to each set (Figure \ref{keyfig}, \emph(Bottom)).
+The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central sulcus label on the FreeSurfer native surfaces (Figure \ref{keyfig}, \emph(Top)). The zones analysis constructs a Voronoi diagram, which establishes partitions based on the greater proximity to a set of label nodes (Figure \ref{keyfig}B).
 
 \begin{figure}[h!]
   \includegraphics[width=0.47\textwidth]{figure-01}
   \caption{\label{keyfig}
-  (Top) Exact geodesic distance from the central sulcus on an individual pial surface.
-  (Bottom) Zones based on proximity to the central or calcarine sulcus.
+  (A) FreeSurfer labels delineated from the central and calcarine sulci depicted on the individual inflated surface.
+  (B) Schematic indicated the difference between the distance (C) and zones (D) analyses. 
+  (C) Exact geodesic distance from the central sulcus on an individual pial surface.
+  (D) Zones based on proximity to the central (red) or calcarine (blue) sulci.
   }
 \end{figure}
 

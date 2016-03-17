@@ -69,7 +69,7 @@ The resultant package, SurfDist, achieves the aforementioned goals of faciliatin
   \includegraphics[width=0.47\textwidth]{figure-01}
   \caption{\label{keyfig}
   (A) Schematic illustrating the distance (B) and zone (C) analyses. 
-  (B) FreeSurfer labelsfrom the central and calcarine sulci depicted on the individual inflated surface (left), and the exact geodesic distance from the two labels presented on an individual pial surface (right).
+  (B) FreeSurfer labels from the central and calcarine sulci depicted on the individual inflated surface (left), and the exact geodesic distance from the two labels presented on an individual pial surface (right).
   (C) Zones delineated based on proximity to the central (red) or calcarine (blue) sulci.
   }
 \end{figure}

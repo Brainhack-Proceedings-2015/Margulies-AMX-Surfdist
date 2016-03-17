@@ -63,7 +63,7 @@ Finally, to facilitate applications to neuroscience research questions, we enabl
 
 #Results
 
-The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central sulcus label on the FreeSurfer native surfaces (Figure \ref{keyfig}, \emph(Top)). The distance measure provides a means to parcellate the cortex using the surface geometry. Towards that aim, we also implement a `zones analysis', which constructs a Voronoi diagram, establishing partitions based on the greater proximity to a set of label nodes (Figure \ref{keyfig}B).
+The resultant package, SurfDist, achieves the aforementioned goals of faciliating the calculation of exact geodesic distance on the cortical surface. We present here the distance measures from the central and calcarine sulci labels on the FreeSurfer native surfaces (Figure~\ref{keyfig}B). The distance measure provides a means to parcellate the cortex using the surface geometry. Towards that aim, we also implement a `zones analysis', which constructs a Voronoi diagram, establishing partitions based on the greater proximity to a set of label nodes (Figure~\ref{keyfig}C).
 
 \begin{figure}[h!]
   \includegraphics[width=0.47\textwidth]{figure-01}

@@ -46,7 +46,7 @@ contrib: DSM, MF, and JMH wrote the software and report.
 
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100232}{doi:10.5524/100232}
 ...
 
 #Introduction
